@@ -1,0 +1,53 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Juego de preguntas</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../media/favicon-32x32.png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  
+  <body>
+    <header>
+      <div class="container">
+        <p class="logo">VALENTINA</p>
+        <nav>
+          <a href="../../index.html">Regresar a la Pagina Principal</a>
+          <li class="dropdown">
+            <a class="dropbtn" href="#Juegos">Juegos</a>
+            <div class="dropdown-content"> 
+              <a href="../juego1/juego1.html">Juego de Snake</a>
+              <a href="../juego2/juego2.html">Juego de Memoria</a>
+              <a href="juego3.html">Juego de Preguntas</a>
+            </div>
+          </li>
+              
+              
+            <a href="#recompensas">Recompensas</a>
+
+          </nav>
+      </div>
+
+    </header>
+    <br><br>
+    
+      <div class="contenedor">
+      <div class="puntaje" id="puntaje"></div>
+      <div class="encabezado">
+        <div class="categoria" id="categoria">
+        </div>
+        <div class="numero" id="numero"></div>
+        <div class="pregunta" id="pregunta">
+        </div>
+        <img src="#" class="imagen" id="imagen">
+      </div>
+      <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+      <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+      <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+      <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+      
+      <script src="index.js"></script>
+    </div>
+  
+  </body>
+</html>

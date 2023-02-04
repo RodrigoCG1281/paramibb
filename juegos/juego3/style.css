@@ -1,0 +1,197 @@
+html{
+  scroll-behavior: smooth;
+}
+
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+button{
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  color: white;
+  background-color: blueviolet;
+}
+
+
+button:hover{
+  background-color: rgb(101, 33, 165);
+}
+.container{
+  max-width: 1400px;
+  margin: auto;
+}
+.color-acento{ color:blueviolet; }
+header{
+  background-color: rgb(245,245,245);
+  height: 80px;
+  
+}
+
+header .logo{
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: blueviolet;
+  font-size: 1.6em;
+}
+
+header .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+header nav li ul{
+  display:none;
+ }
+
+header nav li:hover > ul{
+  display:block;
+ }
+
+header nav .dropbtn{
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+header nav .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+header .dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 159px;
+  font-size: 13px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+header .dropdown-content a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+header .dropdown-content a:hover {background-color: #f1f1f1}
+
+header .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Con esto le doy color sin hacer nada */
+header a{
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+/*Con esto le doy color al momento de hacer*/
+header a:hover{
+  color: blueviolet;
+}
+@media (min-width: 850px){
+  header{
+      position: fixed;
+      width: 100%;
+  }
+
+  header .container{
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  header nav{
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 100px;
+  }
+
+
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.contenedor {
+  background-color: blueviolet;
+  width: 100%;
+  height: 97vh;
+  float: left;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.encabezado {
+  position: relative;
+  background: white;
+  min-width: 300px;
+  width: 70%;
+  max-width: 600px;
+  padding: 10px;
+}
+
+.categoria {
+  opacity: 0.3;
+  text-align: left;
+}
+
+.pregunta {
+  padding: 10px;
+}
+
+.imagen {
+  object-fit: cover;
+  height: 0px;
+  width: 0px;
+}
+
+.btn {
+  background: white;
+  width: 60%;
+  max-width: 550px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.numero{
+  position: absolute;
+  opacity:0.3;
+  top: 10px;
+  right: 10px;
+}
+
+.puntaje{
+  padding:10px;
+  color:white;
+}

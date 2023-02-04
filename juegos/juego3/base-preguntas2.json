@@ -1,0 +1,93 @@
+[
+    {
+        "categoria": "Nosotros mi amor",
+        "pregunta": "¿Quién se declaro ?",
+        "respuesta": "Rodrigo Bernardo",
+        "incorrecta1": "Milagros",
+        "incorrecta2": "Rodrigo",
+        "incorrecta3": "Bianet Milagros",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Te pongo a prueba bb",
+        "pregunta": "¿Cual es mi cantante favorito?",
+        "respuesta": "Luis Miguel",
+        "incorrecta1": "Chayanne",
+        "incorrecta2": "Miguel Luis",
+        "incorrecta3": "Cristian Castro",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Te pongo a prueba bb",
+        "pregunta": "¿Cual es mi color favorito?",
+        "respuesta": "Negro",
+        "incorrecta1": "Rojo",
+        "incorrecta2": "Azul",
+        "incorrecta3": "Dorado",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Te pongo a prueba bb",
+        "pregunta": "¿Cual es mi album favorito?",
+        "respuesta": "20 años",
+        "incorrecta1": "Romances",
+        "incorrecta2": "Aries",
+        "incorrecta3": "Amarte es un placer",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Te pongo a prueba bb",
+        "pregunta": "¿En que año/mes/dia es donde Rodriguito llega al mundo?",
+        "respuesta": "2000-06-08",
+        "incorrecta1": "2000-08-06",
+        "incorrecta2": "08-06-2000",
+        "incorrecta3": "2000",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Nosotros mi amor",
+        "pregunta": "¿Somos dos, dos '..' ?",
+        "respuesta": "enamorados",
+        "incorrecta1": "amantes",
+        "incorrecta2": "imbechiles",
+        "incorrecta3": "bonitos",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Nosotros mi amor",
+        "pregunta": "¿Como se llama el felino que se gano mi corazon?",
+        "respuesta": "Bruno",
+        "incorrecta1": "bruno",
+        "incorrecta2": "el pepe",
+        "incorrecta3": "Brumo",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Nosotros mi amor",
+        "pregunta": "¿Como se llamara nuestra hija?",
+        "respuesta": "Valentina",
+        "incorrecta1": "Valeria",
+        "incorrecta2": "Milagros :v",
+        "incorrecta3": "Rodriga xd",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Nosotros mi amor",
+        "pregunta": "¿Cual es el nombre de esta cancion? 'Mi prisión, mi libertad,mi oscuridad y mi lucero,Mezcla de brisa y tempestad. Así te quiero'",
+        "respuesta": "Amante del amor",
+        "incorrecta1": "Amarte es un placer",
+        "incorrecta2": "Sera que no me amas",
+        "incorrecta3": "Por debajo de la mesa",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Te pongo a prueba bb",
+        "pregunta": "¿Cual es mi animal favorito?",
+        "respuesta": "El Leon",
+        "incorrecta1": "El gato",
+        "incorrecta2": "El tigre",
+        "incorrecta3": "El dragon",
+        "objectFit": "cover"
+    }
+    
+]
